@@ -1,0 +1,57 @@
+@font-face {
+    font-family: roboto_regular;
+    src: url(./fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff);
+}
+
+
+
+$bg_color:#171819;
+$font_color_1: #8c8585;
+$font_color_2: #514c4c;
+#title_bar{
+	background-color: $bg_color;
+	color:$font_color_1;
+	display: flex;
+	font-family: roboto_regular;
+}
+
+#title_bar div{
+	float:left;
+}
+
+#title_bar #logo{
+	width: 15%;
+}
+
+#title_bar #info{
+	width: 70%;
+	display: flex;
+}
+#title_bar #info div{
+	display:block;
+}
+#title_bar #info #col_1{
+	width: 30%;
+	// background-color:#333;
+}
+#title_bar #info #col_2{
+	width: 40%;
+	font-size: 0.9em;
+	text-align: center;
+	// background-color: #3FF;
+}
+#title_bar #info #col_3{
+	width: 30%;
+	color: $font_color_2;
+	font-size: 0.9em;
+	text-align: right;
+	// background-color: #33f;
+}
+
+#title_bar #controls_container{
+	width: 15%;
+}
+
+#title_bar #controls_container #controls_container{
+	
+}
