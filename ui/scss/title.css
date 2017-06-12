@@ -1,3 +1,43 @@
+@font-face {
+  font-family: roboto_regular;
+  src: url(./fonts/roboto_regular_macroman/Roboto-Regular-webfont.woff); }
+#title_bar {
+  background-color: #171819;
+  color: #8c8585;
+  display: flex;
+  font-family: roboto_regular; }
 
+#title_bar div {
+  float: left; }
+
+#title_bar #logo {
+  width: 15%; }
+
+#title_bar #info {
+  width: 70%;
+  display: flex; }
+
+#title_bar #info div {
+  display: block; }
+
+#title_bar #info #col_1 {
+  width: 30%; }
+
+#title_bar #info #col_2 {
+  width: 40%;
+  font-size: 0.9em;
+  text-align: center; }
+
+#title_bar #info #col_3 {
+  width: 30%;
+  color: #514c4c;
+  font-size: 0.9em;
+  text-align: right; }
+
+#title_bar #controls_container {
+  width: 15%; }
+
+#title_bar #controls_container #controls {
+  background-color: #f0f; }
 
 /*# sourceMappingURL=title.css.map */

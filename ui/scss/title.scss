@@ -8,11 +8,15 @@
 $bg_color:#171819;
 $font_color_1: #8c8585;
 $font_color_2: #514c4c;
+
 #title_bar{
-	background-color: $bg_color;
-	color:$font_color_1;
-	display: flex;
-	font-family: roboto_regular;
+	background-color: #171819;
+    color: #8c8585;
+    display: flex;
+    font-family: roboto_regular;
+    border-color: #060707;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
 }
 
 #title_bar div{
@@ -52,6 +56,57 @@ $font_color_2: #514c4c;
 	width: 15%;
 }
 
-#title_bar #controls_container #controls_container{
-	
+#title_bar #controls_container #controls{
+	// background-color:#f0f;
+	float: right;
+    margin-right: 5px;
+    width: 66px;	
+}
+
+#title_bar #controls_container #controls .window_control{
+	width: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#title_bar #controls_container #controls #control_min{
+	/*background-color: #FFF; */
+    color: #514c4c;
+    border-radius: 0px 0px 0px 5px;
+    border-color: #514c4c;
+    border-style: double;
+    border-width: thin;
+
+}
+
+#title_bar #controls_container #controls #control_min:hover{
+	background-color:#4aaf64;
+	color:#fff;
+
+}
+
+#title_bar #controls_container #controls #control_max{
+	color: #514c4c;
+    border-color: #514c4c;
+    border-style: solid none;
+    border-width: thin;
+}
+
+#title_bar #controls_container #controls #control_max:hover{
+	background-color:#af9b4a;
+	color:#fff;
+}
+
+#title_bar #controls_container #controls #control_close{
+	color: #514c4c;
+    border-radius: 0px 0px 5px 0px;
+    border-color: #514c4c;
+    border-style: double;
+    border-width: thin;
+}
+
+#title_bar #controls_container #controls #control_close:hover{
+
+	background-color:#c12121;
+	color:#fff;
 }
