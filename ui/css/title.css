@@ -9,78 +9,66 @@
   border-color: #060707;
   border-width: 0px 0px 2px 0px;
   border-style: solid; }
+  #title_bar div {
+    float: left; }
+  #title_bar #logo {
+    width: 15%; }
+  #title_bar #info {
+    width: 70%;
+    display: flex; }
+  #title_bar #info div {
+    display: block; }
+  #title_bar #info #col_1 {
+    width: 30%; }
+  #title_bar #info #col_2 {
+    width: 40%;
+    font-size: 0.9em;
+    text-align: center; }
+  #title_bar #info #col_3 {
+    width: 30%;
+    color: #514c4c;
+    font-size: 0.9em;
+    text-align: right; }
+  #title_bar #controls_container {
+    width: 15%; }
+  #title_bar #controls_container #controls {
+    float: right;
+    margin-right: 5px;
+    width: 66px; }
+  #title_bar #controls_container #controls .window_control {
+    width: 20px;
+    text-align: center;
+    cursor: pointer; }
+  #title_bar #controls_container #controls #control_min {
+    color: #514c4c;
+    border-radius: 0px 0px 0px 5px;
+    border-color: #514c4c;
+    border-style: double;
+    border-width: thin; }
+  #title_bar #controls_container #controls #control_min:hover {
+    background-color: #4aaf64;
+    color: #fff; }
+  #title_bar #controls_container #controls #control_max {
+    color: #514c4c;
+    border-color: #514c4c;
+    border-style: solid none;
+    border-width: thin; }
+  #title_bar #controls_container #controls #control_max:hover {
+    background-color: #af9b4a;
+    color: #fff; }
+  #title_bar #controls_container #controls #control_close {
+    color: #514c4c;
+    border-radius: 0px 0px 5px 0px;
+    border-color: #514c4c;
+    border-style: double;
+    border-width: thin; }
+  #title_bar #controls_container #controls #control_close:hover {
+    background-color: #c12121;
+    color: #fff; }
 
-#title_bar div {
-  float: left; }
-
-#title_bar #logo {
-  width: 15%; }
-
-#title_bar #info {
-  width: 70%;
-  display: flex; }
-
-#title_bar #info div {
-  display: block; }
-
-#title_bar #info #col_1 {
-  width: 30%; }
-
-#title_bar #info #col_2 {
-  width: 40%;
-  font-size: 0.9em;
-  text-align: center; }
-
-#title_bar #info #col_3 {
-  width: 30%;
-  color: #514c4c;
-  font-size: 0.9em;
-  text-align: right; }
-
-#title_bar #controls_container {
-  width: 15%; }
-
-#title_bar #controls_container #controls {
-  float: right;
-  margin-right: 5px;
-  width: 66px; }
-
-#title_bar #controls_container #controls .window_control {
-  width: 20px;
-  text-align: center;
-  cursor: pointer; }
-
-#title_bar #controls_container #controls #control_min {
-  /*background-color: #FFF; */
-  color: #514c4c;
-  border-radius: 0px 0px 0px 5px;
-  border-color: #514c4c;
-  border-style: double;
-  border-width: thin; }
-
-#title_bar #controls_container #controls #control_min:hover {
-  background-color: #4aaf64;
-  color: #fff; }
-
-#title_bar #controls_container #controls #control_max {
-  color: #514c4c;
-  border-color: #514c4c;
-  border-style: solid none;
-  border-width: thin; }
-
-#title_bar #controls_container #controls #control_max:hover {
-  background-color: #af9b4a;
-  color: #fff; }
-
-#title_bar #controls_container #controls #control_close {
-  color: #514c4c;
-  border-radius: 0px 0px 5px 0px;
-  border-color: #514c4c;
-  border-style: double;
-  border-width: thin; }
-
-#title_bar #controls_container #controls #control_close:hover {
-  background-color: #c12121;
-  color: #fff; }
+#contents {
+  background-color: #000;
+  width: 100vw;
+  height: calc(100vh - 44px); }
 
 /*# sourceMappingURL=title.css.map */
